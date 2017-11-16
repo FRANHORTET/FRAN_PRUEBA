@@ -8,7 +8,7 @@ node {
    stage('read fichero') {
       // Run the maven build
       
-      sfichero = readfile 'README.md'
+      sfichero = readFile 'README.md'
       echo sfichero
       
    }
